@@ -38,11 +38,11 @@ export default function FloatingChatbot() {
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = "scale(1.1)";
-            e.currentTarget.style.backgroundColor = "#6a1b9a";
+            e.currentTarget.style.backgroundColor = "#660002";//#6a1b9a#660002
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = "scale(1)";
-            e.currentTarget.style.backgroundColor = "#4a148c";
+            e.currentTarget.style.backgroundColor = "#860A0C";  //#4a148c
           }}
         >
           ��

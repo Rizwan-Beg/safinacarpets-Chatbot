@@ -100,8 +100,8 @@ export default function Chatbot() {
               style={{
                 ...styles.message,
                 background:
-                  msg.role === "user" ? "#4a148c" : "#f8f9fa",
-                color: msg.role === "user" ? "white" : "#333",
+                  msg.role === "user" ? "#DEE2E6" : "#860A0C",
+                color: msg.role === "user" ? "#333" : "white",
                 alignSelf: msg.role === "user" ? "flex-end" : "flex-start",
               }}
             >
@@ -160,7 +160,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     backgroundColor: "white",
   },
   header: {
-    background: "linear-gradient(135deg, #4a148c 0%, #6a1b9a 100%)",
+    background: "linear-gradient(135deg, #860A0C 0%, #6a1b9a 100%)",
     color: "white",
     padding: "16px",
   },
@@ -195,7 +195,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     display: "flex",
     flexDirection: "column",
     gap: "12px",
-    backgroundColor: "#fafafa",
+    backgroundColor: "#F3F5F6",
   },
   welcomeMessage: {
     display: "flex",
@@ -244,10 +244,10 @@ const styles: { [key: string]: React.CSSProperties } = {
     borderRadius: "20px",
     outline: "none",
     fontSize: "14px",
-    backgroundColor: "#f8f9fa",
+    backgroundColor: "#E8EBF0",
   },
   button: {
-    background: "linear-gradient(135deg, #4a148c 0%, #6a1b9a 100%)",
+    background: "linear-gradient(135deg, #860A0C 0%, #6a1b9a 100%)",
     color: "white",
     border: "none",
     padding: "12px 20px",
